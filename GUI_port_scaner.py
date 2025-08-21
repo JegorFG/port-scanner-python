@@ -49,7 +49,7 @@ def start_scan():
     try:
         start, end = map(int, port_range.split("-"))
     except:
-        messagebox.showerror("Error", "Formato de puertos incorrecto. Ejemplo: 20-100")
+        messagebox.showerror("Error", "Formato de puertos incorrecto. Ejemplo: 1-1000")
         return
 
     results.delete(1.0, tk.END)
@@ -111,7 +111,7 @@ ttk.Label(frame, text="IP o dominio:").grid(row=0, column=0, sticky="w")
 entry_ip = ttk.Entry(frame, width=30)
 entry_ip.grid(row=0, column=1)
 
-ttk.Label(frame, text="Rango de puertos (ej: 20-100):").grid(row=1, column=0, sticky="w")
+ttk.Label(frame, text="Rango de puertos (ej: 1-1000):").grid(row=1, column=0, sticky="w")
 entry_ports = ttk.Entry(frame, width=15)
 entry_ports.grid(row=1, column=1)
 
