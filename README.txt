@@ -1,6 +1,11 @@
-# 🔍 Escáner de Puertos Avanzado en Python
+# 🔍 Escáner de Puertos en Python (CLI + GUI)
 
-Este proyecto implementa un **escáner de puertos TCP** escrito en Python, diseñado para **fines educativos y prácticas de ciberseguridad ética**.  
+Este proyecto implementa un **escáner de puertos TCP** en Python, disponible en dos modalidades:
+- **CLI** (consola)
+- **GUI** (interfaz gráfica con Tkinter)
+
+Ideal para **fines educativos y prácticas de ciberseguridad ética**.
+
 Permite identificar qué puertos están abiertos en un host dentro de un rango definido, utilizando **multithreading** para mayor velocidad y eficiencia.
 
 ---
@@ -36,3 +41,4 @@ Permite identificar qué puertos están abiertos en un host dentro de un rango d
    ```bash
    git clone https://github.com/JegorFG/port-scanner-python.git
    cd port-scanner-python
+
